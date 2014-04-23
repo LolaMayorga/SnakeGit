@@ -18,6 +18,7 @@ public class MiCanvas extends Canvas implements KeyListener{
         this.setBackground(Color.white);
         this.setBounds(50,50,300,300);
           this.addKeyListener(this);
+          //Modificado desde github
         
    }
    public void paint(Graphics g)
