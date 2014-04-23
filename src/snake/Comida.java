@@ -8,7 +8,7 @@ public class Comida {
 
     private Rectangle r;
     private  int lado=10;
-   private int x;
+   int x;
     int y;
     Comida()
     {   x=(int)(Math.random()*30)*10;
