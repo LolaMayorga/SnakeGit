@@ -7,8 +7,8 @@ import java.awt.Rectangle;
 public class Comida {
 
     private Rectangle r;
-    int lado=10;
-    int x;
+    private  int lado=10;
+   private int x;
     int y;
     Comida()
     {   x=(int)(Math.random()*30)*10;
@@ -36,5 +36,6 @@ public class Comida {
         r=null;
         x=-1;
         y=-1;
+        return;
     }
 }
