@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 import javax.swing.Timer;
 
 public class Ventana extends javax.swing.JFrame implements ActionListener{
-    Snake snake= new Snake();
+    private Snake snake= new Snake();
     Comida comida= new Comida();
     MiCanvas canvas= new MiCanvas(snake,comida);
     Timer timerSnake= new Timer(150,this);
